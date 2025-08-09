@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #2e3a59;
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 0 20px 40px;
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    font-size: 3rem;
+    color: #0d47a1;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px rgba(13, 71, 161, 0.3);
+}
+
+/* Subtítulos */
+h2 {
+    font-size: 1.9rem;
+    color: #1565c0;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #bbdefb;
+    padding-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #0d336e;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.1rem;
+    color: #37474f;
+    margin-bottom: 20px;
+}
+
+/* Sección "¿Por qué usar Git y GitHub?" */
+#por-que-usar-git-github {
+    background: linear-gradient(135deg, #bbdefb, #e3f2fd);
+    border-left: 6px solid #1976d2;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(25, 118, 210, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#por-que-usar-git-github:hover {
+    box-shadow: 0 10px 28px rgba(25, 118, 210, 0.5);
+    transform: translateY(-5px);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    font-size: 1rem;
+    color: #37474f;
+    transition: box-shadow 0.3s ease;
+}
+
+table:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e1e8f0;
+}
+
+th {
+    background-color: #1976d2;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5faff;
+}
+
+tbody tr:hover {
+    background-color: #dbe9ff;
+    cursor: default;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        margin: 15px;
+        padding: 0 10px 30px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    table, th, td {
+        font-size: 0.9rem;
+    }
+}
